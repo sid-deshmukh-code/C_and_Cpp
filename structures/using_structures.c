@@ -8,16 +8,18 @@ struct student
 };
 
 int main(){
-    int i;
-    struct student s[3];
-    for(i=0;i<3;i++){
+    int i, n;
+    printf("Enter for how many students you want to print percentage: ");
+    scanf("%d",&n);
+    struct student s[n];
+    for(i=0;i<n;i++){
 
-    printf("Roll no");
+    printf("\nRoll no  ");
     scanf("%d",&s[i].r);
-    printf("PHY and MATHS");
+    printf("\nPHY and MATHS  ");
     scanf("%d %d",&s[i].m,&s[i].p);
     s[i].per = (s[i].m + s[i].p)/2.0;   // type casting
-    printf("Percentage = %f", s[i].per);    
+    printf("\nPercentage = %f\n\n", s[i].per);    
 
     }
     return 0;
