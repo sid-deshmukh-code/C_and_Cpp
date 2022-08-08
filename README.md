@@ -1,3 +1,6 @@
-# Hackerrank-C
-Solving problems of c language from hackerrank.
--------Lets Rock----------
+# C and C++
+## Learning C and C++
+- Solving simple problems.
+- Making simple programs.
+- Practicing C and C++.
+### -------Lets Rock----------
