@@ -9,7 +9,9 @@ using namespace std;
 int main()
 {
     int n;
+    cout << "Enter n\n";
     cin >> n;
+    cout << "Enter numbers\n";
 	int arr[n], x, great, y;
     for (x=0;x<n;x++){
         cin >> arr[x];
@@ -20,7 +22,7 @@ int main()
             great = arr[y];
         }
     }
-    cout<<"\n\nis the greatest among the entered values"<<great;
+    cout<<"\n\nis the greatest among the entered values "<<great;
 
 
     
