@@ -1,4 +1,4 @@
-// C++ Boilercode for " Greatest among n numbers "
+// C++ code for " Greatest among n numbers "
 // Author : Siddhant Deshmukh
 
 
