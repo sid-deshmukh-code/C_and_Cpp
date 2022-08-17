@@ -17,7 +17,7 @@ int main()
         cin >> arr[x];
     }
     great = arr[0];
-    for(y=0;y<n;y++){
+    for(y=1;y<n;y++){
         if(great<arr[y]){
             great = arr[y];
         }
