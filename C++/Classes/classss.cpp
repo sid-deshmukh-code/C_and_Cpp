@@ -1,2 +1,1 @@
-// Classes
-// Class topics here....
+// Class in C++
