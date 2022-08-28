@@ -11,7 +11,7 @@ int main()
 
 
 	int i;
-    for (i = 0; i < 101; i++)
+    for (i = 0; i <= 126; i++)
     {
         cout << i << "->" << char(i) << endl;
         
