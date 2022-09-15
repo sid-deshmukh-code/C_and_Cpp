@@ -13,6 +13,9 @@ int main()
     cin >> num;  
   
     for(count = 1; count <= num; count++)  
+    /* count ki value 2 bhi chalegi
+Coz 1 se multiply krne ke baad same no hi ata
+*/
     {  
         fact = fact * count;  
     }  
